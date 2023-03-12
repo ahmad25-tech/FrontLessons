@@ -1,0 +1,29 @@
+.text h1 {
+  left: 457px;
+  top: 48px;
+}
+.text p {
+  left: 473px;
+  top: 118px;
+}
+
+.row .pic1 {
+  position: absolute;
+  left: 29px;
+  top: 224.32px;
+}
+.row .pic2 {
+  position: absolute;
+  left: 428.94px;
+  top: 342px;
+}
+.row .pic3 {
+  position: absolute;
+  left: 748px;
+  top: 234.72px;
+}
+.row .pic4 {
+  position: absolute;
+  left: 1130.46px;
+  top: 340px;
+}/*# sourceMappingURL=style.css.map */

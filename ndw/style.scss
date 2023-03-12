@@ -1,0 +1,53 @@
+.page {
+    .text {
+        h1 {
+            left: 457px;
+            top: 48px;
+            width: 528px;
+            height: 50px;
+        }
+
+        p {
+            left: 473px;
+            top: 118px;
+            width: 495px;
+            height: 48px;
+        }
+    }
+
+
+    .row {
+        .pic11 {
+            position: absolute;
+            left: 29px;
+            top: 224.32px;
+            width: 27%;
+            height: 268.72px;
+        }
+
+        .pic21 {
+            position: absolute;
+            left: 428.94px;
+            top: 342px;
+            width: 23%;
+            height: 369px;
+
+        }
+
+        .pic31 {
+            position: absolute;
+            left: 748px;
+            top: 234.72px;
+            width: 27%;
+            height: 268.72px;
+        }
+
+        .pic41 {
+            position: absolute;
+            left: 1130.46px;
+            top: 340px;
+            width: 23%;
+            height: 329.42px;
+        }
+    }
+}
