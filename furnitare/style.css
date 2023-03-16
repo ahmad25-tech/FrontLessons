@@ -1,0 +1,25 @@
+.col-lg-4 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.col-lg-4 .boxImg {
+  position: relative;
+}
+.col-lg-4 .boxImg img {
+  box-sizing: border-box;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.col-lg-4 .boxImg .text {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+.col-lg-4 .boxImg .text .line {
+  width: 80px;
+  height: 3px;
+  background-color: #fbb710;
+  display: block;
+  margin-bottom: 15px;
+}/*# sourceMappingURL=style.css.map */
