@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+  <title>Hospitalnav</title>
+
+</head>
+
+<body>
+  <section>
+    <div class="container">
+      <div class="page-header">
+        <div class="row">
+          <h1 class="h-title">ŞÖBƏLƏR</h1>
+          <nav style="--bs-breadcrumb-divider: '-';" aria-label="breadcrumb">
+            <ol class="breadcrumb indigo lighten-6 first-1 shadow-lg">
+              <li class="breadcrumb-item active"><a href="#"><img id="home"
+                    src="https://img.icons8.com/ios-filled/50/000000/dog-house.png" class="mr-md-2 mr-1 mb-1 "
+                    width="22" height="19"> Əsas
+                  Səhifə</a><!--<img class="ml-md-3 ml-1" src="https://img.icons8.com/metro/50/000000/chevron-right.png " width="20" height="20">-->
+              </li>
+
+              <li class="breadcrumb-item" aria-current="page">Şöbələr</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+      <div class="menu mt-5">
+        <div class="row">
+          <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left " type="button" data-toggle="collapse"
+                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
+                    style="width: 1140px; color: black;">
+                    OFTALMOLOGİYA
+                  </button>
+                </h2>
+              </div>
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left " type="button" data-toggle="collapse"
+                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
+                    style="width: 1140px; color: black;">
+                    RADİOLOGİYA
+                  </button>
+                </h2>
+              </div>
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left " type="button" data-toggle="collapse"
+                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
+                    style="width: 1140px; color: black;">
+                    CƏRRAHİ XƏSTƏLİKLƏR
+                  </button>
+                </h2>
+              </div>
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left " type="button" data-toggle="collapse"
+                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
+                    style="width: 1140px; color: black;">
+                    DAXİLİ XƏSTƏLİKLƏR
+                  </button>
+                </h2>
+              </div>
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left " type="button" data-toggle="collapse"
+                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
+                    style="width: 1140px; color: black;">
+                    QADIN XƏSTƏLİKLƏRİ VƏ DOĞUŞ
+                  </button>
+                </h2>
+              </div>
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left " type="button" data-toggle="collapse"
+                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
+                    style="width: 1140px; color: black;">
+                    ANESTEZİOLOGİYA VƏ REANİMASİYA
+                  </button>
+                </h2>
+              </div>
+
+              <div id="collapseOne" class="collapse-show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+                      aria-controls="pills-home" aria-selected="true">Ümumi məlumat</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+                      aria-controls="pills-profile" aria-selected="false">Xidmətlər</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-doctors" role="tab"
+                      aria-controls="pills-contact" aria-selected="false">Həkimlər</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-video" role="tab"
+                      aria-controls="pills-contact" aria-selected="false">Video</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+                      aria-controls="pills-contact" aria-selected="false">Əlaqə</a>
+                  </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                  <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                    aria-labelledby="pills-home-tab">
+                    <div class="col-sm-12">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          Caspian İnternational Hospital da son texnoloji tələblərə cavab verən, yeni avadanlıqlarla
+                          təhciz olunmuş, Oftalmologiya şöbəsi yenidən qurularaq dəyərli vətəndaşlarımıza və xarici
+                          vətəndaşlara dünya standartları səviyyəsində xidmət göstərməyə başlamışdır.
+                          Caspian İnternational Hospitalın Oftalmologiya şöbəsində, ölkəmizdə az sayda olan və hatta bir
+                          çox sağlamlıq mərkəzlərində olmayan, müasir avadanlıqların imkanları sayəsində, peşəkar həkim
+                          komandamızın fəaliyyətinin əhatə dairəsi genişləndiyindən, bir çox göz xəstəliklərinin və
+                          qüsurlarının aradan qaldırılması uğurla həyata keçirilməkdədir.
+                        </div>
+                        <div class="col-sm-6">
+                          Digər böyük sağlamlıq mərkəzlərində müalicəsi və əməliyyatları həyata
+                          keçirilən göz xəstəliklərinin, artıq Caspian İnternational Hospitalın Oftalmologiya şöbəsində
+                          daha yüksək səviyyədə həyata keçirilməyə başlanılması, həm peşəkar həkimlərimizin bu sahədə
+                          olan bacarıqlarından həm də klinikmızın sağlamlıq sektorunda göstərdiyi xidmətlərin
+                          keyfiyyətindən xəbər verir.
+                          Hədəfi insan gücü və texnologiyanın gücünü birləşdirib, bütün göz problemlərinin müalicəsini
+                          həyata keçirmək olan Caspian İnternational Hospitalın Oftalmologiya şöbəsi buna nail olmuşdur,
+                          bununla yanaşı “etibarlı, etik, keyfiyyətli xidmət” anlayışlarını əsas prinsiblər kimi
+                          mənimsəmişdir!
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    Oftalmologiya şöbəmizdə aşağıdakı xidmətlər göstərilir:
+                    <br> • Kompyuterlə göz müayinəsi
+
+                    <br> • Eksimer Lazer ilə qırma qüsurlarının müalicəsi : PRK, LASIK, LASEK, EPİ-LASIK — Miopiya —
+                    <br> Astiqmatizma — Presbiopiya — Hipermetropiya
+
+                    <br> • Kataraktanın müayinəsi və müalicəsi
+
+                    <br> • Qlaukomanın müayinəsi və müalicəsi
+
+                    <br> • Çəpgözlük və uşaq göz xəstəlikləri
+
+                    <br>• Reatina xəstəliklərinin müayinəsi və müalicəsi
+
+                    <br>• Buynuz qişa müayinəsi və müalicəsi
+
+                    <br> • Makula xəstəliklərinin müayinəsi və müalicəsi
+
+                    <br> • Göz dibi xəstəlikləri
+
+                    <br> • Konyuktivanın infeksion xəstəlikləri
+
+                    <br> • Diabetik göz xəstəliklərinin müalicəsi
+
+
+                  </div>
+                  <div class="tab-pane fade" id="pills-doctors" role="tabpanel" aria-labelledby="pills-contact-tab">
+                    <ul class="mc-gallery gallery-4-columns dm_filters grid-doctors"
+                      style="position: relative; height: 302px;">
+                      <li class="oftalmologiya" id="gallery-item-uzman-dr-cahid-sahbazov"
+                        style="position: absolute; left: 0px; top: 0px;">
+                        <div class="gallery-box gallery-box-1 hover-icons-off"><img width="285" height="190"
+                            src="https://cih.az/wp-content/uploads/2019/01/cahid-1-285x190.jpg"
+                            class="mc-preload wp-post-image" alt="Uzm. Dr. Cahid Şahbazov" title=""
+                            srcset="https://cih.az/wp-content/uploads/2019/01/cahid-1-285x190.jpg 285w, https://cih.az/wp-content/uploads/2019/01/cahid-1-670x446.jpg 670w, https://cih.az/wp-content/uploads/2019/01/cahid-1-600x400.jpg 600w, https://cih.az/wp-content/uploads/2019/01/cahid-1-390x260.jpg 390w"
+                            sizes="(max-width: 285px) 100vw, 285px" style="display: block;">
+                          <div class="description">
+                            <h4>Uzm. Dr. Cahid Şahbazov</h4>
+                            <h5>Oftalmoloq</h5>
+                          </div>
+
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="tab-pane fade" id="pills-video" role="tabpanel" aria-labelledby="pills-contact-tab">
+                    <iframe width="420" height="315" src="https://www.youtube.com/watch?v=NsUWXo8M7UA">
+                    </iframe>
+                  </div>
+
+                  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+
+                    <h4 class="box-header animation-slide slide">Məlumatı qeyd edib bizə göndərin</h4>
+                    <form action="" class="contact-form">
+                      <div class="col-sm-12">
+                        <div class="row">
+                          <fieldset class="col-sm-6">
+                            <label for="">AD</label>
+                            <div class="block">
+                              <input type="text-input">
+                            </div>
+                            <label for="">DOĞUM TARİXİ (ay/gün/il)</label>
+                            <div class="block">
+                              <input type="text-input">
+                            </div>
+                            <label for="">TELEFON</label>
+                            <div class="block">
+                              <input type="text-input">
+                            </div>
+                          </fieldset>
+                          <fieldset class="col-sm-6">
+                            <label for="">SOYAD</label>
+                            <div class="block">
+                              <input type="text-input">
+                            </div>
+                            <label for="">ŞƏHƏR</label>
+                            <div class="block">
+                              <input type="text-input">
+                            </div>
+                            <label for="">E-MAIL</label>
+                            <div class="block">
+                              <input type="text-input">
+                            </div>
+                          </fieldset>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 mt-4">
+                        <fieldset>
+                          <div class="block">
+                            <label for="">MESAJ</label>
+                            <textarea name="message" tabindex="7" id="" cols="30" rows="10"></textarea>
+                          </div>
+                        </fieldset>
+                      </div>
+                    </form>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+  </section>
+</body>
+
+</html>

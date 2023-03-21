@@ -1,0 +1,59 @@
+.page-header {
+    padding: 2rem 0;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.menu {
+    .accordion {
+        .accordion-item {
+            h2 {
+                color: #FFF !important;
+            }
+
+            h2:after {
+                content: "\6e";
+
+            }
+        }
+
+        .tab-content {
+        
+            .tab-pane {
+                h4 {
+                    
+                    font-size: 18px;
+                    line-height: 1.55556;
+                }
+
+                label {
+                    display: block;
+                    font-size: 12px;
+                    line-height: 1.83334;
+                    color: #999;
+                }
+
+                .block {
+                    input {
+                        width: 100%;
+                        padding: 13px 22px;
+                        color: #000;
+                        margin: 0;
+                        background: #F0F0F0;
+                        border: none;
+                        box-sizing: border-box;
+                    }
+
+                    textarea {
+                        height: 150px;
+                        width: 100%;
+                        padding: 13px 22px;
+                        color: #000;
+                        margin: 0;
+                        background: #F0F0F0;
+                        border: none;
+                    }
+                }
+            }
+        }
+    }
+}

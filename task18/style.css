@@ -1,0 +1,39 @@
+.page-header {
+  padding: 2rem 0;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.menu .accordion .accordion-item h2 {
+  color: #FFF !important;
+}
+.menu .accordion .accordion-item h2:after {
+  content: "n";
+}
+.menu .accordion .tab-content .tab-pane h4 {
+  font-size: 18px;
+  line-height: 1.55556;
+}
+.menu .accordion .tab-content .tab-pane label {
+  display: block;
+  font-size: 12px;
+  line-height: 1.83334;
+  color: #999;
+}
+.menu .accordion .tab-content .tab-pane .block input {
+  width: 100%;
+  padding: 13px 22px;
+  color: #000;
+  margin: 0;
+  background: #F0F0F0;
+  border: none;
+  box-sizing: border-box;
+}
+.menu .accordion .tab-content .tab-pane .block textarea {
+  height: 150px;
+  width: 100%;
+  padding: 13px 22px;
+  color: #000;
+  margin: 0;
+  background: #F0F0F0;
+  border: none;
+}/*# sourceMappingURL=style.css.map */
